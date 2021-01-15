@@ -1,3 +1,81 @@
+/*
+
+Colours Used:
+
+Off White = #F4F4F4
+Light Grey = #E0E0E0
+Soft Blue = #A0D2D0
+Light Coral = #ECB390
+Dark Coral = #DF7861
+Soft Green = #D4E2D4
+Black = #0C0C0B
+
+Fonts Used:
+
+h1 = Bebas Neue, Bold, 38pt
+h2 = Bebas Neue, Bold, 26pt
+body = Open Sans, 14pt
+
+*/
+
 body {
   background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: #0C0C0B;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.75em;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #DF7861;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #A0D2D0
+}
+
+a:hover
+a:focus {
+  color: #ECB390;
+  text-decoration: none;
+}
+
+a:active {
+  color: #A0D2D0
+}
+
+.button {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #0C0C0B;
+  border-radius: 2px;
+  padding: 10px;
+  border: 2px solid #0C0C0B;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  background-color: #A0D2D0
+}
+
+.button:visited {
+  color: #0C0C0B;
+}
+
+.button:active {
+  opacity: 0.7;
 }

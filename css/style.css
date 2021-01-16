@@ -23,7 +23,18 @@ body = Open Sans, 14pt
 }
 
 header {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.3);
+  position: fixed;
+  width: 100%;
+}
 
+main {
+  padding-top: 133px;
 }
 
 body {
@@ -105,4 +116,51 @@ a:active {
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4A4A4A;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #DF7861
+}
+
+nav > ul > li > a:hover
+nav > ul > li > a:focus {
+  color: #ECB390;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:visited {
+  color: #DF7861;
+}
+
+
+#hero {
+  background-color: #FFFFFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }

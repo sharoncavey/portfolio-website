@@ -18,10 +18,18 @@ body = Open Sans, 14pt
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
+header {
+
+}
+
 body {
-  background-color: white;
+  background-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: 16;
   font-weight: 400;
   line-height: 1.6;
   color: #0C0C0B;
@@ -49,17 +57,17 @@ a {
 }
 
 a:visited {
-  color: #A0D2D0
+  color: #DF7861;
 }
 
 a:hover
 a:focus {
   color: #ECB390;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active {
-  color: #A0D2D0
+  color: #A0D2D0;
 }
 
 .button {
@@ -73,7 +81,7 @@ a:active {
 }
 
 .button:hover {
-  background-color: #A0D2D0
+  background-color: #A0D2D0;
 }
 
 .button:visited {
@@ -82,4 +90,10 @@ a:active {
 
 .button:active {
   opacity: 0.7;
+}
+
+/* Layout Styling */
+
+.container {
+  padding: 0 15px;
 }

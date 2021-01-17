@@ -121,7 +121,7 @@ a:active {
 }
 
 #work {
-  padding-top: 133px;
+  padding-top: 180px;
 }
 
 #work .row {
@@ -185,6 +185,12 @@ nav > ul > li > a:focus {
 
 .copyright {
   font-size: 10px;
-  color: #E0E0E0;
+  color: #808080;
   padding: 10px;
+}
+
+#contact {
+  background-color: #E0E0E0;
+  padding: 5px 0 5px 0;
+  margin-bottom: 0;
 }

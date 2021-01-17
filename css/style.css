@@ -120,9 +120,17 @@ a:active {
   margin: 25px 0;
 }
 
+#work {
+  padding-top: 133px;
+}
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4A4A4A;
+}
+
+#project {
+  padding-top: 133px;
 }
 
 #hero {

@@ -40,10 +40,11 @@ main {
 body {
   background-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   color: #0C0C0B;
+  text-align: center;
 }
 
 h1 {
@@ -71,9 +72,9 @@ a:visited {
   color: #DF7861;
 }
 
-a:hover
+a:hover,
 a:focus {
-  color: #ECB390;
+  color: #A0D2D0;
   text-decoration: underline;
 }
 
@@ -85,22 +86,28 @@ a:active {
   display: inline-block;
   background-color: #FFFFFF;
   color: #0C0C0B;
-  border-radius: 2px;
-  padding: 10px;
+  border-radius: 1px;
+  padding: 5px 15px 5px 15px;
   border: 1px solid #0C0C0B;
   transition: 0.2s opacity;
-}
-
-.button:hover {
-  background-color: #A0D2D0;
+  margin: 20px;
 }
 
 .button:visited {
   color: #0C0C0B;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #A0D2D0;
+  color: #0C0C0B;
+  text-decoration: none;
+}
+
 .button:active {
   opacity: 0.7;
+  font-color: #0C0C0B;
+  text-decoration: none;
 }
 
 /* Layout Styling */
@@ -116,6 +123,13 @@ a:active {
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4A4A4A;
+}
+
+#hero {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 #hero h1 {
@@ -144,23 +158,25 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #DF7861
-}
-
-nav > ul > li > a:hover
-nav > ul > li > a:focus {
-  color: #ECB390;
-  text-decoration: underline;
+  color: #DF7861;
 }
 
 nav > ul > li > a:visited {
   color: #DF7861;
 }
 
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  text-decoration: underline;
+  color: #A0D2D0;
+}
 
-#hero {
-  background-color: #FFFFFF;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
+.social {
+  padding: 0 10px 0 10px;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #E0E0E0;
+  padding: 10px;
 }

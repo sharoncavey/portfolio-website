@@ -106,7 +106,7 @@ a:active {
 
 .button:active {
   opacity: 0.7;
-  font-color: #0C0C0B;
+  color: #0C0C0B;
   text-decoration: none;
 }
 
@@ -136,8 +136,6 @@ a:active {
 #hero {
   background-color: #FFFFFF;
   padding: 80px 0;
-  display: inline-block;
-  width: 100%;
 }
 
 #hero h1 {

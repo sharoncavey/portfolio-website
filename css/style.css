@@ -260,3 +260,13 @@ body {
 @media only screen and (min-width: 1440px) {
 
 }
+
+@keyframes color-change {
+  from {fill:#2b478b;}
+  to {fill:#FF69B4;}
+
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}

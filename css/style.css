@@ -267,6 +267,15 @@ body {
 
 }
 
-.sun {
+.profilepic {
   animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes textmove {
+  from {transform: translate(50px,0);}
+  to {transform: translate(50px, 100px);}
+}
+
+.textmove {
+  animation: 1s textmove infinite alternate linear;
 }

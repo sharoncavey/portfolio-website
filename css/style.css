@@ -22,6 +22,10 @@ body = Open Sans, 14pt
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: #FFFFFF;
   text-align: center;
@@ -129,8 +133,16 @@ a:active {
   border-bottom: 1px solid #4A4A4A;
 }
 
+#work .row:last-child {
+  border-bottom: none;
+}
+
 #project {
   padding-top: 133px;
+}
+
+#project p {
+  text-align: left;
 }
 
 #hero {
@@ -198,7 +210,7 @@ nav > ul > li > a:focus {
 @media only screen and (min-width: 640px) {
 
 header {
-  text-align: unset;
+  text-align: left;
   padding: 20px 0 13px;
 }
 
@@ -220,8 +232,13 @@ body {
   text-align: center;
 }
 
-#hero span {
+#hero h1 span {
   display: block;
+  font-size: 0.5em;
+}
+
+#hero img {
+  max-width: 400px;
 }
 
 #about h3 {

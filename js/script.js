@@ -1,3 +1,1 @@
-<script>
-  console.log("Welcome to my Portfolio")
-</script>
+console.log("Welcome to my Portfolio!")

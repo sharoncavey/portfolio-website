@@ -5,6 +5,8 @@ White = #ffffff
 Sand = #ddddda
 Navy = #205072
 Stone Blue = #94b0b7
+Almond = #c6a477
+Stone = #c2c8c5
 Black = #0C0C0B
 Fonts = #000000
 
@@ -31,7 +33,6 @@ header {
   /* -webkit-box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.3);
   -moz-box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.3);
   box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.3); */
-
   position: fixed;
   width: 100%;
   text-align: left;
@@ -117,6 +118,21 @@ a.logostyle:focus {
   color: #94b0b7;
 }
 
+a.caselinks {
+  text-align: right;
+  color: #95703e;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 75%;
+  text-decoration: none;
+}
+
+a.caselinks:hover,
+a.caselinks:focus {
+  background-color: transparent;
+  color: #c2c8c5;
+}
+
 .button {
   display: inline-block;
   background-color: transparent;
@@ -148,9 +164,8 @@ a.logostyle:focus {
 }
 
 /* Layout Styling */
-
 .container {
-  padding: 0 15px;
+  padding: 25px 15px;
 }
 
 .row {
@@ -182,8 +197,7 @@ a.logostyle:focus {
 #hero {
   background-color: transparent;
   color: #0c0c0b;
-  padding: 80px 0 50px 0;
-  text-align: left;
+  padding: 80px 0 50px;
 }
 
 #hero h1 {
@@ -194,6 +208,10 @@ a.logostyle:focus {
 #hero h1 span {
   display: block;
   font-size: 0.5em;
+  text-align: left;
+}
+
+#hero h2 {
   text-align: left;
 }
 
@@ -289,8 +307,25 @@ nav > ul > li > a:focus {
   margin-bottom: 0;
 }
 
-/* Medium devices (640px and larger) */
+#contact h2 {
+  text-align: center;
+}
 
+.left h2 {
+  text-align: left;
+}
+
+.fadein img {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.fadein img:hover {
+  opacity: 0.6;
+  transition: 1s ease;
+}
+
+/* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
   header {
     padding: 20px 0 13px;
@@ -360,7 +395,6 @@ nav > ul > li > a:focus {
 }
 
 /* Large devices (1024px or larger) */
-
 @media only screen and (min-width: 1024px) {
   .container {
     max-width: 1200px;
@@ -375,8 +409,13 @@ nav > ul > li > a:focus {
 } */
 
 @keyframes color-change {
-  from { fill: #2b478b; }
-  to { fill: #9ec3f6; }
+  from {
+    fill: #2b478b;
+  }
+
+  to {
+    fill: #9ec3f6;
+  }
 }
 
 .profilepic {
@@ -384,8 +423,13 @@ nav > ul > li > a:focus {
 }
 
 @keyframes textmove {
-  from { transform: translate(50px, 0); }
-  to { transform: translate(50px, 100px); }
+  from {
+    transform: translate(50px, 0);
+  }
+
+  to {
+    transform: translate(50px, 100px);
+  }
 }
 
 .textmove {
